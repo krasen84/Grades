@@ -1,7 +1,7 @@
 const assert = require('assert');
 const fetch = require('node-fetch');
 
-suite('Add Grades page', function() {
+suite('Add Grade page', function() {
   test('Page title', async function() {
     let res = await fetch("http://localhost:8888/Add-Grade");
     let body = await res.text();
